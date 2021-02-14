@@ -1,7 +1,6 @@
-import { Controller, Get, Query, Post, Body } from '@nestjs/common';
+import { Controller, Get, Query } from '@nestjs/common';
 import { GameService } from './GameService';
 import { IRandomNumbers } from '../interfaces/IRandomNumbers';
-import { IWinData } from '../interfaces/IWinData';
 
 @Controller('/game')
 export class GameController {
